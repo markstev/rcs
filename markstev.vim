@@ -2,8 +2,10 @@
 " Maintainer:	Bram Moolenaar <Bram@vim.org>
 " Last Change:	2006 Apr 14
 
-" This color scheme uses a dark grey background.
-
+" To use:
+" Move to /usr/share/vim/vim74/colors/markstev.vim
+" :colo markstev in your vimrc
+"
 " First remove all existing highlighting.
 set background=dark
 
