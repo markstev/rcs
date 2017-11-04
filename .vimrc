@@ -20,3 +20,6 @@ match OverLength /\%82v.*/
 set rtp+=$GOROOT/misc/vim
 filetype plugin indent on
 syntax on
+
+map ,h :e %:r.h*<CR>
+map ,c :e %:r.c*<CR>
