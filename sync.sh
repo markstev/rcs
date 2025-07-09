@@ -1,5 +1,5 @@
 #!/bin/bash
-for f in ".vimrc" ".screenrc" ".bashrc" ".gitconfig"
+for f in ".vimrc" ".screenrc" ".bashrc" ".gitconfig" ".zshrc" ".tmux.conf"
 do
   cp $f ~/$f
   cp ~/$f $f -f
